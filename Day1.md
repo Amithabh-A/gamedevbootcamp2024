@@ -1,12 +1,15 @@
 # Day 1
 
-### Installation
+### Godot Game Engine Installation
 
 - [Linux](https://github.com/godotengine/godot/releases/download/4.3-stable/Godot_v4.3-stable_linux.x86_64.zip)
 - [Mac](https://github.com/godotengine/godot/releases/download/4.3-stable/Godot_v4.3-stable_macos.universal.zip)
 - [Windows](https://github.com/godotengine/godot/releases/download/4.3-stable/Godot_v4.3-stable_win64.exe.zip)
 
+
 ## Programming Tutorial
+
+[Slides](https://drive.google.com/file/d/1fpZjl16ualCV9AlnSVg6adW2BKFQCaww/view?usp=sharing)
 
 ### `if`
 
