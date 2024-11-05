@@ -66,7 +66,7 @@ while coins_collected < target_coins:
 
 1. Health System : The player’s health decreases by 20 when they touch an enemy. If their health reaches 0, they lose the game. Write a program that checks if the player's health is 0 and ends the game.
 
-   ```
+   ```gdscript
    var player_health = 100  # Player starts with 100 health
    var enemy_contact = true  # Simulate enemy contact (this could be true or false in real gameplay)
 
@@ -76,7 +76,7 @@ while coins_collected < target_coins:
 
 2. The player can only jump if they have enough stamina. Each jump consumes 10 stamina. If the player doesn’t have enough stamina, they can’t jump. Write a system to check if the player has enough stamina to jump.
 
-   ```
+   ```gdscript
    var player_stamina = 50  # Player starts with 50 stamina
    var jump_stamina_cost = 10  # Each jump costs 10 stamina
 
@@ -90,7 +90,7 @@ These are the possible answers for the questions:
 
 1. Qn 1
 
-   ```
+   ```gdscript
    var player_health = 100  # Player starts with 100 health
    var enemy_contact = true  # Simulate enemy contact (this could be true or false in real gameplay)
 
@@ -103,7 +103,7 @@ These are the possible answers for the questions:
 
 2. Qn 2
 
-   ```
+   ```gdscript
    var player_stamina = 50  # Player starts with 50 stamina
    var jump_stamina_cost = 10  # Each jump costs 10 stamina
 
