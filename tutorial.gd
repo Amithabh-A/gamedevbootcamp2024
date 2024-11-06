@@ -1,6 +1,30 @@
 extends Node2D
 
-# We will update the tutorial by today(6 November 2024) 1pm 
+# Declare a variable
+var health # `health` is the name of the variable and `var` denotes that health is a variable
+
+# Assign a value to a variable
+health = 60
+
+# Declare a variable and assign a value to it
+var score = 0
+
+# Declare a constant and assign a value to it
+const GRAVITY = 9.8
 
 func _ready():
-    pass
+
+    # Basic `if` condition
+    # If health is greater than 50, print healthy status
+    if health > 50:
+        print("Healthy")
+
+    # Loops: while loop
+
+    # Initialize a counter variable
+    var i = 0
+
+    # While loop that continues until i is less than 10
+    while i < 10:
+        print(i)
+        i += 1
