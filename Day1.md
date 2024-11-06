@@ -8,8 +8,8 @@
 
 ## Programming Tutorial
 
-* [Slides (which contain the programming tutorial we've used)](https://drive.google.com/file/d/1fpZjl16ualCV9AlnSVg6adW2BKFQCaww/view)
-* [Scribe (literally scribe! I will appreciate you if you can understand my handwriting :) )](https://drive.google.com/file/d/1rcB86wGxeHz0LcwtYhhjcCjEALaWAebx/view?usp=sharing)
+* [Slides (contains programming tutorial)](https://drive.google.com/file/d/1fpZjl16ualCV9AlnSVg6adW2BKFQCaww/view)
+* [Scribe](https://drive.google.com/file/d/1rcB86wGxeHz0LcwtYhhjcCjEALaWAebx/view?usp=sharing)
 
 ### `if`
 
