@@ -1,4 +1,4 @@
-## GameDev Bootcamp Day 1
+## GameDev Bootcamp Day 3
 
 * Please find the resources we've used for yesterday's bootcamp session here:
 [Bootcamp Day 3](https://github.com/Amithabh-A/gamedevbootcamp2024/blob/init/tutorials/Day3.md)
