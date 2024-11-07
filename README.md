@@ -7,4 +7,4 @@
 
 gdscript tutorial : [Tutorial](https://github.com/Amithabh-A/gamedevbootcamp2024/blob/main/tutorial.gd)
 
-The Gamedev session starts at 6pm today. 
+The Gamedev session starts at 6pm tomorrow(8 Nov 2024)
