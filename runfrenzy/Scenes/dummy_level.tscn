@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://dq6vqsrhaxkdb"]
+[gd_scene load_steps=5 format=3 uid="uid://dq6vqsrhaxkdb"]
 
 [ext_resource type="PackedScene" uid="uid://lommv72xsri0" path="res://Scenes/player.tscn" id="2_impvk"]
 
@@ -7,6 +7,9 @@ load_path = "res://.godot/imported/platforms (1).png-6d24ab56661b93e50075ed7888d
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n672x"]
 size = Vector2(63.5, 17)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kyt1n"]
+size = Vector2(66, 20)
 
 [node name="Game" type="Node2D"]
 
@@ -24,7 +27,7 @@ position = Vector2(-1.25, 0.5)
 shape = SubResource("RectangleShape2D_n672x")
 
 [node name="Player" parent="." instance=ExtResource("2_impvk")]
-position = Vector2(519, 144)
+position = Vector2(467, 201)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 
@@ -53,3 +56,14 @@ texture = SubResource("CompressedTexture2D_fs73n")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Ground3"]
 position = Vector2(-1.25, 0.5)
 shape = SubResource("RectangleShape2D_n672x")
+
+[node name="KillerArea" type="Area2D" parent="."]
+position = Vector2(511, 1225)
+scale = Vector2(-245.573, -0.540725)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KillerArea"]
+position = Vector2(23, 0)
+shape = SubResource("RectangleShape2D_kyt1n")
+
+[connection signal="body_entered" from="KillerArea" to="Player" method="_on_player_entered_killer_area"]

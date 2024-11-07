@@ -34,5 +34,11 @@ func apply_gravity():
 	#velocity.y = velocity.y + G
 	
 	if Input.is_action_just_pressed("Up") and is_on_floor():
-		animatedPlayer.play("jump")
 		velocity.y = -JUMPSPEED
+		
+	if not is_on_floor():
+		animatedPlayer.play("jump")
+
+
+func _on_player_entered_killer_area(body: Node2D) -> void:
+	get_tree().reload_current_scene()

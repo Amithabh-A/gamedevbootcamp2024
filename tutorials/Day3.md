@@ -46,3 +46,14 @@
 * mirroring using `.scale.x`
 
 #### is_action_just_pressed for jump glitch
+
+
+#### Killer area
+
+* new node `Area2D` under Node -> Rename it to KillerArea
+* collisionShape -> rectangle -> adjust it on bottom of the scene
+* Add Signal : Click Area2D -> Select Node on side of inspector -> click `body entered (node2d)` -> rename fn -> click Player -> create
+* check for function in Player script
+* write `get_tree().reload_current_scene()`
+    
+> NOTE: Just use Google, Godot Documentation and ChatGPT to get what to do if you are stuck
